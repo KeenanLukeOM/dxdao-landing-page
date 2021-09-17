@@ -463,12 +463,19 @@ export const LandingPage = () => {
                 <DXDLogo src={'./brand/dxdao-blue.svg'} />
                 <Message>DXD powers the Decentralised Ecosystem</Message>
                 <Description>
-                    DXD is the DXdao native ERC20 token, DXD token holders have
-                    an economic claim to the DXdao´s revenue and it also grants
-                    its owners future access to a suite of services and premium
-                    features in decentralised applications, such as gasless
-                    transactions, feeless anonymizing of assets, reduced trading
-                    fees on DEX protocols and more.
+                    DXD is the DXdao native ERC20 token. DXD token holders own
+                    future access to a suite of services, premium features, and
+                    a portion of fees accrued in the decentralised applications
+                    that the DXdao community creates. With the passage of the
+                    <a
+                        href="https://daotalk.org/t/governance-2-0-signal-proposal/2600"
+                        target="_blank"
+                    >
+                        {' '}
+                        Governance 2.0 signal proposal
+                    </a>
+                    , DXD will also be a DXdao governance token that manages the
+                    DXdao on-chain treasury.
                 </Description>
                 <ButtonRow>
                     <LandingPageButton
